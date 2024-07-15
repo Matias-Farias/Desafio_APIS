@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <hr/>
+        <h1>Conversor de Monedas</h1>
+        <hr/>
+        <input type="number" id="cantidad" placeholder="Ingrese cantidad en pesos chilenos">
+        <select id="moneda">
+            <option value="">Seleccione moneda</option>
+            <option value="uf">Unidad de fomento (UF)</option>
+            <option value="dolar">Dólar</option>
+            <option value="euro">Euro</option>
+        </select>
+        <button id="convertir">Convertir</button>
+        <div id="resultado"></div>
+        <canvas id="myChart" width="400" height="200"></canvas>
+    </div>
+    <script src="./assets/css/script.js"></script>
+</body>
+</html>
